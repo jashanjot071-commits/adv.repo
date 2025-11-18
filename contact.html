@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Advocate Mohan Singh Arora</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <img src="logo.png" alt="Logo" />
+      <h1>Mohan Singh Arora</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Get in Touch</h2>
+    <p class="contact-intro">
+      For legal consultations or case discussions, feel free to reach out.
+      You can contact Advocate Mohan Singh Arora directly through this form or visit the office at the address below.
+    </p>
+
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form id="contactForm" class="contact-form" onsubmit="sendForm(event)">
+        <input type="text" name="name" placeholder="Your Full Name" required />
+        <input type="email" name="email" placeholder="Your Email Address" required />
+        <input type="text" name="subject" placeholder="Subject (optional)" />
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <!-- Google Map -->
+      <div class="contact-map">
+        <h3>Office Location</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213.9687471689598!2d75.83526428166743!3d30.90064668723769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a830016280851%3A0xae29c6b4b3bd0f4a!2sAdvocate%20Mohan%20Singh%20Arora!5e0!3m2!1sen!2sin!4v1762698885345!5m2!1sen!2sin"
+          width="100%"
+          height="350"
+          style="border:0; border-radius:10px;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+        <p class="office-details">
+          <strong>Address:</strong> District Court Complex, Chamber No.100, Ludhiana, India<br>
+          <strong>Phone:</strong> +91 9855466364<br>
+          <strong>Email:</strong> mohansinghadv04@yahoo.com
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Advocate Mohan Singh Arora | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
