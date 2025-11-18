@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const data = Object.fromEntries(formData.entries());
 
       try {
-        const response = await fetch("https://advocate-backend.onrender.com/contact", {
+        const response = await fetch("https://adv-backend-repo.onrender.com/contact", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data)
@@ -29,3 +29,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
